@@ -6,16 +6,16 @@ public class Insurance {
 	private int age;
 	private double insuredAmount;
 	
-	public double calculatePremium(int age, double insuredAmount) {
+	public double calculatePremium() {
 		
-		if(age>25)
+		if(this.age>25)
 		{
-			return insuredAmount*0.7;
+			return this.insuredAmount*0.7;
 			
 		}
 		else
 		{
-			return insuredAmount*0.6;
+			return this.insuredAmount*0.6;
 			
 		}
 		
