@@ -22,7 +22,7 @@ public class VehicleInsurance extends Insurance {
 		double premium=0;
 		if(this.vehicleModel==2)
 		{
-			if(this.getAge()<2)
+			if((2020-this.yearofManufacture)<=2)
 			{
 				premium = this.costofVehicle*0.5;
 			}
@@ -33,7 +33,7 @@ public class VehicleInsurance extends Insurance {
 		}
 		else {
 			
-			if(this.getAge()<2)
+			if((2020-this.yearofManufacture)<=2)
 			{
 				premium = this.costofVehicle*0.4;
 			}
