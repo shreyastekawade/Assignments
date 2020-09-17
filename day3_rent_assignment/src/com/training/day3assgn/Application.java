@@ -11,7 +11,7 @@ public class Application {
 		{
 		Rent selected = cust1.getProduct(key+1);
 		if (selected == null) {
-			
+			System.out.println("Invalid Input");
 			
 		}else {
 			
