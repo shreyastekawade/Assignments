@@ -13,11 +13,7 @@ public class Application {
 			service.addBk(bk1, 1);
 			Book bk2 = new Book(12,"Shyam","GOT021",111);
 			service.addBk(bk2, 2);
-			
 			service.getOne(12);
-			
-			
-			
 			service.getAll(2);
 			}
 		catch(Exception e){

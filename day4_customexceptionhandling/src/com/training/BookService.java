@@ -1,6 +1,8 @@
 package com.training;
 
-import java.util.NoSuchElementException;
+//import java.util.NoSuchElementException;
+
+import com.training.exceptions.MyCustomException;
 
 public class BookService {
 	  int iterator2=0;
@@ -12,7 +14,7 @@ public class BookService {
 		iterator2=iterator;
 	}
 	
-	public void getOne(int idBook)
+	public void getOne(int idBook) throws MyCustomException
 	{
 		for (int i=0; i<iterator2;i++)
 		{
@@ -21,7 +23,7 @@ public class BookService {
 				System.out.println(bkList[i].getBookName());
 			}
 			else {
-				throw new NoSuchElementException();
+				throw new MyCustomException("Invalid Book");
 			}
 				
 		}

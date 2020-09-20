@@ -10,6 +10,11 @@ public class MyCustomException extends Exception {
 		this.cause = cause;
 		// TODO Auto-generated constructor stub
 	}
+	
+	public MyCustomException(String message) {
+		super();
+		this.message = message;
+	}
 
 	@Override
 	public String getMessage() {
