@@ -1,0 +1,3 @@
+Customer [custName=Ram, mobNo=1234, age=20]
+Customer [custName=Ram, mobNo=1234, age=20]
+Customer [custName=Ram, mobNo=1234, age=20]
